@@ -1,0 +1,70 @@
+/* cabeçalho */
+header {
+	background-color: #1717175b;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+header .titulo-principal {
+	font-size: 36px;
+	color: #333;
+	margin: 0;
+	}
+	
+	.menu-navegacao {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	.link-navegacao {
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	transition: background-color 0.2s ease;
+	}
+	
+	.link-navegacao:hover {
+	background-color: #ddd;
+	}
+	
+	/* seção principal */
+	.subtitulo-principal {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold; /*texto em negrito */
+  margin-top: 20px; /*espaçamento acima do subtítulo */
+}
+
+.texto-principal {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2b2525;
+}
+/*conheça nossos serviços*/
+.subtitulo-secundario {
+  font-size: 20px;
+  color: #333;
+  text-decoration: underline; /* sublinhado */
+  margin-top: 20px; /*espaçamento acima do subtítulo */
+}
+
+.lista-servicos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*lista dos serviços*/
+.item-servico {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 10px;
+  background-color: #f9f9f9; 
+  padding: 10px; /*espaçamento interno */
+  border-radius: 5px; /*borda arredondada */
+  box-shadow: 10px 10px 2px #ddd; /*sombra suave */
+}

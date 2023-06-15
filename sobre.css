@@ -1,0 +1,67 @@
+/* cabeçalho */
+header {
+	background-color: #1717175b;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+header .titulo-principal {
+	font-size: 36px;
+	color: #333;
+	margin: 0;
+	}
+	
+	.menu-navegacao {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	
+	.link-navegacao {
+	text-decoration: none;
+	color: #333;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	transition: background-color 0.2s ease;
+	}
+	
+	.link-navegacao:hover {
+	background-color: #ddd;
+	}
+	/*foto */
+.conteudo {
+	position: relative;
+}
+
+.minha-foto {
+	position: absolute;
+	left: 20px;
+	top: 120px;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+.minha-foto:hover {
+	transform: scale(1.5) rotate(1440deg);
+}
+/*sobre mim*/
+.titulo-sobre-mim {
+	text-align: center;
+	font-weight: bold;
+}
+
+main {
+	margin-top: 50px;
+	padding: 0 20px;
+}
+
+main p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: justify;
+}
